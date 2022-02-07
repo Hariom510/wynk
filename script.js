@@ -14,12 +14,12 @@ let songs = [
     {songName: "Baarish-ban-jaana", filePath: "songs/2.mp3" },
     {songName: "Barsaat Ki Dhun", filePath: "songs/3.mp3" },
     {songName: "Raataan Lambiyan", filePath: "songs/4.mp3" },
-    {songName: "Dil Kehta Hai", filePath: "songs/5.mp3"}
-    // {songName: "Sun Meri Shehzadi", filePath: "songs/6.mp3" },
-    // {songName: "Kitna Bechain Hoke", filePath: "songs/7.mp3" },
-    // {songName: "Mera Dil Bhi Kitna", filePath: "songs/8.mp3" },
-    // {songName: "Hare Hare Hare", filePath: "songs/9.mp3" },
-    // {songName: "Jiye Toh Jiye Kaise", filePath: "songs/10.mp3" },
+    {songName: "Dil Kehta Hai", filePath: "songs/5.mp3"},
+    {songName: "Sun Meri Shehzadi", filePath: "songs/6.mp3" },
+    {songName: "Kitna Bechain Hoke", filePath: "songs/7.mp3" },
+    {songName: "Mera Dil Bhi Kitna", filePath: "songs/8.mp3" },
+    {songName: "Hare Hare Hare", filePath: "songs/9.mp3" },
+    {songName: "Jiye Toh Jiye Kaise", filePath: "songs/10.mp3" }
 
 ];
 
@@ -106,7 +106,7 @@ Array.from(document.getElementsByClassName("songItemPlay")).forEach((element) =>
 
 
 document.getElementById("next").addEventListener("click", ()=>{
-    if(songIndex >= 4){
+    if(songIndex >= 9){
         songIndex = 0;
     }
     else{
