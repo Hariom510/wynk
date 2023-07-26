@@ -14,3 +14,5 @@ A live demo of the Wynk Music Website is available at: https://hariom510.github.
 
 ## Contributing
 Contributions to the Wynk Music Website are welcome! If you find any bugs, have feature requests, or want to improve the website, please feel free to open an issue or submit a pull request.
+
+Happy coding! 🎉
